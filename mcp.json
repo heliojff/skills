@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "freegtw": {
+      "transport": {
+        "type": "sse",
+        "url": "https://stormmcp.ai/gateway/457df735-b048-4311-8922-258de564f7cf/mcp",
+        "headers": {
+          "X-API-Key": "ag_K/X/apI64Uq3kMltIylpk/XA1cGLOy0BMr1vIrfmxGA="
+        }
+      }
+    },
+     "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp"]
+    }
+  }
+}
